@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NSP tech-registration</title>
+    <style>
+        body{
+            background: linear-gradient(to right,#3be6c9,#fa61e5);
+        }
+        a{
+            font-size: 30px;
+        }
+        input{
+    border:none;
+    outline: none;
+    background: transparent;
+    border-bottom: 2px solid rgba(255, 255, 255, .3);
+    opacity: .8;
+    margin-left: 5%;
+}
+label{
+    font-size: 20px;
+    
+    opacity: .8;
+    text-shadow: 2px 2px 4px rgba(0,0,0,.2);
+}
+.btns{
+    height: auto;
+    width: 100%;
+    display: flex;
+}
+.btns a{
+    font-size: 20px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,.2);
+    width: 50;
+text-align: center;
+    margin:5% ;
+    outline-style:inset;
+    outline-color:rgb(214, 50, 179);
+    outline-width: 2px;
+    opacity: .6;
+}
+form::before{
+    content: '';
+    position: absolute;
+    bottom: 5%;
+    right: 35%;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    background: #3be6c9;
+    opacity: .2;
+}
+form::after{
+    content: '';
+    position:absolute;
+    top: 5%;
+    left: 32%;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background: #45f0f0;
+    opacity: .2;
+}
+
+
+    </style>
+</head>
+<body>
+    <h1><b> NSP Tech</b></h1>
+        <h1 class="head">Registration Form</h1>
+        <hr>
+        
+            <form name="regform" method="POST">
+                <br>
+                <label for="fname">Firstname</label>
+                <input type="text" id="name" name="firstname" placeholder="">
+                <br />
+                <br>
+                <label for="fname">Lastname</label>
+                <input type="text" id="name" name="lastname" placeholder="">
+                <br />
+                <br>
+
+                <label for="email">Email Id:</label>
+                <input type="text" id="name" name="email" value=" ">
+                <br />
+                <br>
+                <label for="mobile number">Mobile Number:</label>
+                <input type="number" id="name" name="Mobile Number" >
+                <br />
+                <br>
+
+                <label>Gender</label>
+                <input type="radio" id="male" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" value="female">
+                <label for="male">Female</label>
+                <br />
+                <br>
+                <label for="degree">Degree:</label><br>
+                <input type="radio" id="be" name="BE" value="BE">
+                <label for="be">BE</label><br>
+                <input type="radio" id="b.tech" name="B.Tech" value="B.Tech">
+                <label for="b.tech">B.Tech</label><br>
+                <input type="radio" id="me" name="ME" value="ME">
+                <label for="me">ME</label><br>
+                <input type="radio" id="m.tech" name="M.Tech" value="M.Tech">
+                <label for="m.tech">M.Tech</label>
+
+                <br />
+                <br>
+                <label for="branch">Branch:</label><br>
+                <input type="radio" id="eee" name="EEE" value="EEE">
+                <label for="eee">EEE</label><br>
+                <input type="radio" id="ece" name="ECE" value="ECE">
+                <label for="ece">ECE</label><br>
+                <input type="radio" id="cse" name="CSE" value="CSE">
+                <label for="cse">CSE</label><br>
+                <input type="radio" id="it" name="IT" value="IT">
+                <label for="it">IT</label>
+                <br />
+                <br>
+                <label for="passed out">Passed-out:</label><br>
+                <input type="radio" id="2021" name="2021" value="2021">
+                <label for="2021">2021</label><br>
+                <input type="radio" id="2020" name="2020" value="2020">
+                <label for="2020">2020</label><br>
+                <input type="radio" id="2019" name="2019" value="2019">
+                <label for="2019">2019</label>
+                <br />
+                <br>
+                <label for="technical skills">Technical Skills:</label>
+                <input type="text" id="technical skills" name="technical skills" value=" "><br>
+                <br>
+                <div class="heading">
+                    <label for="Are you ready to sign a service bond agreement">Are you ready to sign a service bond
+                        agreement</label><br>
+    
+                    <select id="Are you ready to sign a service bond agreement"
+                        name="Are you ready to sign a service bond agreement">
+                        <option value="select ">-Select-</option>
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                    </select><br>
+                    <br>
+                    <label for="Are you ready to relocate anywhere in india">Are you ready to relocate anywhere in
+                        India</label><br>
+    
+                    <select id="Are you ready to relocate anywhere in india"
+                        name="Are you ready to relocate anywhere in india">
+                        <option value="select ">-Select-</option>
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                    </select><br>
+                    <br>
+                    <label>Uploaded the CV:</label>
+                    <input type="file">
+                    <br />
+    
+                </form>
+</div></div>
+
+    <div class="btns">
+        <a href="applicationsub.html" class="btn1">Submit</a>
+        </div>
+</body>
+</html>
